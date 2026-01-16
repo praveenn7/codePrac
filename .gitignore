@@ -1,0 +1,41 @@
+###############################
+# IDE metadata & OS junk
+###############################
+*.iml
+*.log
+*.tmp
+*.swp
+*.swo
+.idea/
+.settings/
+.classpath
+.project
+.vscode/
+
+###############################
+# Maven target directory
+###############################
+target/
+
+###############################
+# Test output directories
+###############################
+test-output/
+reports/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+###############################
+# Java-specific
+###############################
+*.class
+
+###############################
+# Other common ignores
+###############################
+*.war
+*.ear
